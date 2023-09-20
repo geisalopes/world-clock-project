@@ -66,5 +66,5 @@ citiesSelectElement.addEventListener("change", updateCity);
 
 let buttonSelection = document.querySelector("button");
 buttonSelection.addEventListener("click", function () {
-  //   window.location.href = "https://shecodes-world-clock.netlify.app/";
+  window.location.href = "https://shecodes-world-clock.netlify.app/";
 });
