@@ -1,27 +1,26 @@
 function updtadeTime() {
-  // Los Angeles
-  let losAngelesElement = document.querySelector("#los-angeles");
-  if (losAngelesElement) {
-    let losAngelesDateElement = losAngelesElement.querySelector(".date");
-    let losAngelesTimeElement = losAngelesElement.querySelector(".time");
-    let losAngelesTime = moment().tz("America/Los_Angeles");
+  // Brisbane
+  let brisbaneElement = document.querySelector("#brisbane");
+  if (brisbaneElement) {
+    let brisbaneDateElement = brisbaneElement.querySelector(".date");
+    let brisbaneTimeElement = brisbaneElement.querySelector(".time");
+    let brisbaneTime = moment().tz("Australia/Brisbane");
 
-    losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do YYYY");
-    losAngelesTimeElement.innerHTML = losAngelesTime.format(
+    brisbaneDateElement.innerHTML = brisbaneTime.format("MMMM Do YYYY");
+    brisbaneTimeElement.innerHTML = brisbaneTime.format(
       "h:mm:ss [<small>]A[</small>]"
     );
   }
-  // Paris
-  let parisElement = document.querySelector("#paris");
-  if (parisElement) {
-    let parisDateElement = parisElement.querySelector(".date");
-    let parisTimeElement = parisElement.querySelector(".time");
-    let parisTime = moment().tz("Europe/Paris");
 
-    parisDateElement.innerHTML = parisTime.format("MMMM Do YYYY");
-    parisTimeElement.innerHTML = parisTime.format(
-      "h:mm:ss [<small>]A[</small>]"
-    );
+  // Oslo
+  let osloElement = document.querySelector("#oslo");
+  if (osloElement) {
+    let osloDateElement = osloElement.querySelector(".date");
+    let osloTimeElement = osloElement.querySelector(".time");
+    let osloTime = moment().tz("Europe/Oslo");
+
+    osloDateElement.innerHTML = osloTime.format("MMMM Do YYYY");
+    osloTimeElement.innerHTML = osloTime.format("h:mm:ss [<small>]A[</small>]");
   }
   // Sao Paulo
   let saoPauloElement = document.querySelector("#sao-paulo");

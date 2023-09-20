@@ -1,6 +1,6 @@
 body {
   /* background-color: #f5e6df; */
-  font-family: sans-serif;
+  font-family: "Comfortaa", cursive;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(248, 213, 214) 0%,
@@ -14,16 +14,24 @@ body {
   ); */
 }
 
-footer {
-  margin-bottom: 50px;
-  text-align: center;
+.icons {
+  font-family: sans-serif;
+  color: rgba(58, 58, 58, 0.898);
   font-size: 15px;
-  /* color: rgb(0, 0, 0, 0.7); */
+  margin: 10px 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.icons a {
+  font-family: sans-serif;
+  color: #c3749a;
+  font-size: 15px;
+  margin-bottom: 40px;
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Comfortaa", cursive;
   font-size: 36px;
 }
 
@@ -33,6 +41,7 @@ h2 {
 }
 
 select {
+  font-family: sans-serif;
   display: block;
   font-size: 18px;
   width: 100%;
@@ -77,36 +86,8 @@ select {
   vertical-align: middle;
 }
 
-.button-45 {
-  background-color: #edcbbb;
-  border: 1px solid #fee0e0;
-  border-radius: 10px;
-  box-sizing: border-box;
-  color: white;
-  cursor: pointer;
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  margin: 0 auto;
-  padding: 2px 12px;
-  text-align: center;
-  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-.button-45:hover {
-  background-color: #ffe3e3;
-  border-color: white;
-  border-color: #fee0e0;
-}
-
-.button-45:focus:hover {
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px 0 inset;
-  color: #edcbbb;
-}
-
 .back-img {
   position: fixed;
-  /* position: absolute; */
   background-position-x: center;
   background-position-y: center;
   top: 0;
@@ -119,7 +100,8 @@ select {
   z-index: -1;
 }
 
-.meu-botao {
+.home-button {
+  font-family: sans-serif;
   background-color: #e5acac;
   border: none;
   color: #ffffff;
@@ -134,7 +116,7 @@ select {
   transition: background-color 0.3s;
 }
 
-.meu-botao:hover {
+.home-button:hover {
   background-color: white;
   color: #8d8a8a;
 }

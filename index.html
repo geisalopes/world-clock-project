@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.js"></script>
@@ -16,43 +22,58 @@
         <select name="city" id="city">
           <option value="">Selec a city</option>
           <option value="current">My current location</option>
+          <option value="Africa/Casablanca">Casablanca</option>
+          <option value="America/Chihuahua">Chihuahua</option>
+          <option value="Antarctica/South_Pole">South Pole</option>
+          <option value="Asia/Damascus">Damascus</option>
+          <option value="Canada/Saskatchewan">Saskatchewan</option>
+          <option value="Indian/Maldives">Maldives</option>
+          <option value="Pacific/Galapagos">Galapagos</option>
           <option value="Europe/London">London</option>
           <option value="America/New_York">New York</option>
           <option value="Pacific/Auckland">Auckland</option>
         </select>
 
         <div id="cities">
-          <div class="city" id="los-angeles">
+          <div class="city" id="brisbane">
             <div>
-              <h2>Los Angeles 🇺🇸</h2>
+              <h2>Brisbane</h2>
               <div class="date"></div>
             </div>
             <div class="time"></div>
           </div>
-          <div class="city" id="paris">
+          <div class="city" id="oslo">
             <div>
-              <h2>Paris 🇫🇷</h2>
+              <h2>Oslo</h2>
               <div class="date"></div>
             </div>
             <div class="time"></div>
           </div>
           <div class="city" id="sao-paulo">
             <div>
-              <h2>São Paulo 🇧🇷</h2>
+              <h2>São Paulo</h2>
               <div class="date"></div>
             </div>
             <div class="time"></div>
           </div>
         </div>
         <!-- <button class="button-45" role="button">Home Page</button> -->
-        <button class="meu-botao">Home Page</button>
+        <button class="home-button">Home Page</button>
       </div>
-      <footer>
-        This project was coded with ❤️ by <strong>Geisa Lopes</strong> and is
+      <footer class="icons">
+        This project was coded with ❤️ by
+        <a href="https://geisalopes.github.io/" target="_blank">Geisa Lopes</a>
+        and is
         <a
-          href="https://github.com/geisalopes/world-clock-project"
+          href="https://github.com/geisalopes/vanilla-weather-app"
           target="_blank"
-          >open sourced on GitHub.</a
+          >open-sourced on GitHub</a
+        >
+        and
+        <a
+          href="https://guileless-buttercream-94a6cf.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
         >
       </footer>
     </div>
