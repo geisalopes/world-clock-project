@@ -5,6 +5,8 @@ body {
     rgb(243, 242, 229) 90%
   );
   font-family: "Comfortaa", cursive;
+  /* position: relative; */
+  /* min-height: 100%; */
   /* background-color: white; */
   /* background-color: #f5e6df; */
 
@@ -18,10 +20,15 @@ body {
 
 .middle-container {
   border-radius: 10px;
-  max-width: 600px;
   margin: 60px auto;
   background-color: rgba(255, 255, 255, 0.549);
   padding: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
 }
 
 .back-img {
@@ -32,25 +39,35 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/097/709/original/mundi.jpg?1695200246"); /* Substitua pelo caminho da sua imagem de fundo */
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/097/709/original/mundi.jpg?1695200246");
   background-size: cover;
   opacity: 10%;
   z-index: -1;
 }
 
 .icons {
-  font-family: sans-serif;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
   color: rgba(58, 58, 58, 0.898);
   font-size: 15px;
-  /* margin: 15px 0; */
+
+  /* font-family: sans-serif;
+  color: rgba(58, 58, 58, 0.898);
+  font-size: 15px;
+  margin: 15px 0;
   text-align: center;
-  padding: 15px;
+  padding: 15px; */
 }
-.icons a {
+/* .icons a {
   font-family: sans-serif;
   color: #c3749a;
   font-size: 15px;
-}
+} */
 
 h1 {
   text-align: center;
