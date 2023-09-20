@@ -10,40 +10,52 @@
   </head>
   <body>
     <div class="container">
-      <h1>World Clock</h1>
-      <select name="city" id="city">
-        <option value="">Selec a city</option>
-        <option value="current">My current location</option>
-        <option value="Europe/London">London</option>
-        <option value="America/New_York">New York</option>
-        <option value="Pacific/Auckland">Auckland</option>
-      </select>
+      <div class="back-img"></div>
+      <div class="middle-container">
+        <h1>World Clock</h1>
+        <select name="city" id="city">
+          <option value="">Selec a city</option>
+          <option value="current">My current location</option>
+          <option value="Europe/London">London</option>
+          <option value="America/New_York">New York</option>
+          <option value="Pacific/Auckland">Auckland</option>
+        </select>
 
-      <div id="cities">
-        <div class="city" id="los-angeles">
-          <div>
-            <h2>Los Angeles 🇺🇸</h2>
-            <div class="date"></div>
+        <div id="cities">
+          <div class="city" id="los-angeles">
+            <div>
+              <h2>Los Angeles 🇺🇸</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
           </div>
-          <div class="time"></div>
-        </div>
-        <div class="city" id="paris">
-          <div>
-            <h2>Paris 🇫🇷</h2>
-            <div class="date"></div>
+          <div class="city" id="paris">
+            <div>
+              <h2>Paris 🇫🇷</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
           </div>
-          <div class="time"></div>
+          <div class="city" id="sao-paulo">
+            <div>
+              <h2>São Paulo 🇧🇷</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
+          </div>
         </div>
+        <!-- <button class="button-45" role="button">Home Page</button> -->
+        <button class="meu-botao">Home Page</button>
       </div>
+      <footer>
+        This project was coded with ❤️ by <strong>Geisa Lopes</strong> and is
+        <a
+          href="https://github.com/geisalopes/world-clock-project"
+          target="_blank"
+          >open sourced on GitHub.</a
+        >
+      </footer>
     </div>
-    <footer>
-      This project was coded with ❤️ by <strong>Geisa Lopes</strong> and is
-      <a
-        href="https://github.com/geisalopes/world-clock-project"
-        target="_blank"
-        >open sourced on GitHub.</a
-      >
-    </footer>
     <script src="src/index.js"></script>
   </body>
 </html>

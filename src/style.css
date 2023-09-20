@@ -1,17 +1,24 @@
 body {
-  background-color: #f5e6df;
+  /* background-color: #f5e6df; */
   font-family: sans-serif;
-  /* background: radial-gradient(
+  background: radial-gradient(
     circle at 10% 20%,
     rgb(248, 213, 214) 0%,
     rgb(243, 242, 229) 90%
+  );
+  /* background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+  /* background: linear-gradient(
+    109.6deg,
+    rgb(185, 212, 242) 11.2%,
+    rgb(244, 210, 226) 100.3%
   ); */
 }
 
 footer {
+  margin-bottom: 50px;
   text-align: center;
-  font-size: 18px;
-  color: rgb(0, 0, 0, 0.7);
+  font-size: 15px;
+  /* color: rgb(0, 0, 0, 0.7); */
 }
 
 h1 {
@@ -33,10 +40,12 @@ select {
   padding: 10px;
 }
 
-.container {
+.middle-container {
+  border-radius: 4%;
   max-width: 600px;
   margin: 60px auto;
   background-color: white;
+  background-color: rgba(255, 255, 255, 0.549);
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -66,4 +75,66 @@ select {
   font-size: 24px;
   line-height: 48px;
   vertical-align: middle;
+}
+
+.button-45 {
+  background-color: #edcbbb;
+  border: 1px solid #fee0e0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 2px 12px;
+  text-align: center;
+  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.button-45:hover {
+  background-color: #ffe3e3;
+  border-color: white;
+  border-color: #fee0e0;
+}
+
+.button-45:focus:hover {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px 0 inset;
+  color: #edcbbb;
+}
+
+.back-img {
+  position: fixed;
+  /* position: absolute; */
+  background-position-x: center;
+  background-position-y: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/097/709/original/mundi.jpg?1695200246"); /* Substitua pelo caminho da sua imagem de fundo */
+  background-size: cover;
+  opacity: 10%;
+  z-index: -1;
+}
+
+.meu-botao {
+  background-color: #e5acac;
+  border: none;
+  color: #ffffff;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.meu-botao:hover {
+  background-color: white;
+  color: #8d8a8a;
 }
